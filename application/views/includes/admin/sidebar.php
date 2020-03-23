@@ -7,9 +7,9 @@
 
                 <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="icon-Remove-Cart "></i><span class="hide-menu">Purchase Order <span class="label label-rounded label-danger">3</span></span></a>
                 </li>
-                <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="icon-Truck"></i><span class="hide-menu">Supplier</span></a>
+                <li> <a class="waves-effect waves-dark" href="<?= base_url('ManageSuppliers') ?>" aria-expanded="false"><i class="icon-Truck"></i><span class="hide-menu">Supplier</span></a>
                 </li>
-                <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="icon-Bag-Items"></i><span class="hide-menu">Raw Materials</span></a>
+                <li> <a class="waves-effect waves-dark" href="<?= base_url('ManageRawMaterials') ?>" aria-expanded="false"><i class="icon-Bag-Items"></i><span class="hide-menu">Raw Materials</span></a>
                 </li>
                 <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="icon-Bar-Chart  "></i><span class="hide-menu">Item Inventory <span class="label label-rounded label-danger">3</span></span></a>
                 </li>
@@ -29,7 +29,7 @@
                         <li><a href="">Descripancies</a></li>
                     </ul>
                 </li>
-                
+
             </ul>
         </nav>
         <!-- End Sidebar navigation -->
